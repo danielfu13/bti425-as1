@@ -1,11 +1,3 @@
-//mongodb+srv://danielfu13:lucIv0KohES1OJGf@senecaweb.y8y5ncb.mongodb.net/?retryWrites=true&w=majority
-//git remote add origin <link>
-//git remote -v 
-//git status
-//git add .
-//git commit -m ""
-//git push origin master
-
 /********************************************************************************
 * BTI425 – Assignment 1
 *
@@ -16,7 +8,7 @@
 *
 * Name: Daniel Fu    Student ID: 153024229    Date: Jan 19, 2024
 *
-* Published URL: ___________________________________________________________
+* Published URL: https://faithful-jade-knickers.cyclic.app/
 *
 ********************************************************************************/
 const express = require('express');
