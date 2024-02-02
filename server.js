@@ -1,21 +1,6 @@
-/********************************************************************************
-* BTI425 – Assignment 1
-*
-* I declare that this assignment is my own work in accordance with Seneca's
-* Academic Integrity Policy:
-*
-* https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
-*
-* Name: Daniel Fu    Student ID: 153024229    Date: Jan 19, 2024
-*
-* Published URL: https://faithful-jade-knickers.cyclic.app/
-*
-********************************************************************************/
 const express = require('express');
 const cors = require('cors'); 
-//const dotenv = require('dotenv');
 const ListingsDB = require("./modules/listingsDB.js");
-
 const db = new ListingsDB();
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -27,10 +12,6 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({ message: "API Listening" });
-});
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
 });
 
 // POST route
